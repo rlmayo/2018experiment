@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head><title>Survey</title>
+<style>
+p.s1 {
+    margin: 35px;
+}
+</style>
+</head>
+<center>
+<h2>Please answer the questions below.</h2>
+<body>
+<div id=age>
+<table border="2">
+<thead>
+  <tr>
+    <th colspan=2>What is your age?</th>
+  </tr>
+  <tr>
+    <th scope=col></th>
+    <th scope=col></th>
+  </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td><input type="radio" id="ageChoice1" name="age" value="18-29"></td>
+    <td><label for="ageChoice1">18-29</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="ageChoice2" name="age" value="30-39"></td>
+    <td><label for="ageChoice2">30-39</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="ageChoice3" name="age" value="40-49"></td>
+    <td><label for="ageChoice3">40-49</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="ageChoice4" name="age" value="50-59"></td>
+    <td><label for="ageChoice4">50-59</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="ageChoice5" name="age" value="60-69"></td>
+    <td><label for="ageChoice5">60-69</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="ageChoice6" name="age" value="70 or over"></td>
+    <td><label for="ageChoice6">70 or over</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="ageChoice7" name="age" value="Prefer not to state"></td>
+    <td><label for="ageChoice7">Prefer not to state</label></td>
+  </tr>
+</tbody>
+</div>
+
+<br>
+
+<div id=gender>
+<thead>
+  <tr>
+    <th colspan=2>What is your gender?</th>
+  </tr>
+  <tr>
+    <th scope=col></th>
+    <th scope=col></th>
+  </tr>
+</thead>
+<tbody align=left>
+  <tr>
+    <td><input type="radio" id="genderChoice1" name="gender" value="Male"></td>
+    <td><label for="genderChoice1">Male</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="genderChoice2" name="gender" value="Female"></td>
+    <td><label for="genderChoice2">Female</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="genderChoice3" name="gender" value="Other"></td>
+    <td><label for="genderChoice3">Other</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="genderChoice4" name="gender" value="Prefer not to state"></td>
+    <td><label for="genderChoice4">Prefer not to state</label></td>
+  </tr>
+  <tr>
+    <td></td>
+	<td></td>
+</tbody>
+</div>
+
+<br>
+
+<div id=marital_status>
+<thead>
+  <tr>
+    <th colspan=2>What is your marital status?</th>
+  </tr>
+  <tr>
+    <th scope=col></th>
+    <th scope=col></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><input type="radio" id="marital_statusChoice1" name="marital_status" value="Married"></td>
+    <td><label for="marital_statusChoice1">Married</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="marital_statusChoice2" name="marital_status" value="Single"></td>
+    <td><label for="marital_statusChoice2">Single</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="marital_statusChoice3" name="marital_status" value="Divorced"></td>
+    <td><label for="marital_statusChoice3">Divorced</label></td>
+  <tr>
+  </tr>
+    <td><input type="radio" id="marital_statusChoice4" name="marital_status" value="Prefer not to state"></td>
+    <td><label for="marital_statusChoice4">Prefer not to state</label></td>
+  </tr>
+  <tr></tr>
+</tbody>  
+</div>
+
+<br>
+
+<div id=income>
+<thead>
+  <tr>
+    <th colspan=2>What is your annual household income?</th>
+  </tr>
+  <tr>
+    <th scope=col></th>
+	<th scope=col></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><input type="radio" id="incomeChoice1" name="income" value="Under $20,000"></td>
+    <td><label for="incomeChoice1">Under $20,000</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="incomeChoice2" name="income" value="$20,000 - $39,999"></td>
+    <td><label for="incomeChoice2">$20,000 - $39,999</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="incomeChoice3" name="income" value="$40,000 - $59,999"></td>
+    <td><label for="incomeChoice3">$40,000 - $59,999</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="incomeChoice4" name="income" value="$60,000 - $79,999"></td>
+    <td><label for="incomeChoice4">$60,000 - $79,999</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="incomeChoice5" name="income" value="$80,000 - $99,999"></td>
+    <td><label for="incomeChoice5">$80,000 - $99,999</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="incomeChoice6" name="income" value="Over $100,000"></td>
+    <td><label for="incomeChoice6">Over 100,000</label></td>
+  </tr>
+  <tr>
+    <td><input type="radio" id="incomeChoice7" name="income" value="Prefer not to state"></td>
+    <td><label for="incomeChoice7">Prefer not to state</label></td>
+  </tr>
+</tbody>
+</div>
+</table>
+<hr>
+<p> Press <a
+  href="../text_root/earnings.html" 
+  ><input 
+    type="submit" 
+	value="Next"
+  ></input></a> to continue.</p>
+</center>
+</body>
+</html>
